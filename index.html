@@ -1,133 +1,480 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bohdan Fedorov</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BOHDAN FEDOROV - JS Developer</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <style>
-        .hover-bg-gray-200:hover {
-            background-color: #edf2f7;
-        }
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./images/favicon.ico"
+      sizes="16x16 32x32 192x192 512x512"
+    />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Bohdan",
+        "familyName": "Fedorov",
+        "gender": "male",
+        "birthDate": "2000-10-05",
+        "email": "bogdanfedorov@gmail.com",
+        "jobTitle": [
+          "Backend Developer",
+          "Full-stack Developer",
+          "DevOps Engineer"
+        ],
+        "hasOccupation": [
+          {
+            "@type": "Occupation",
+            "name": "Freelance",
+            "startDate": "2018",
+            "endDate": "2021",
+            "location": {
+              "@type": "Place",
+              "name": "Lublin, Poland"
+            },
+            "description": "Trainee - Intern - Junior",
+            "skills": "Node.js, React"
+          },
+          {
+            "@type": "Occupation",
+            "name": "Yalantis",
+            "startDate": "2020-09",
+            "endDate": "2022-02",
+            "location": {
+              "@type": "Place",
+              "name": "Kyiv, Ukraine"
+            },
+            "description": "Junior Backend Developer",
+            "skills": "Node.js, express, fastify, nest.js"
+          },
+          {
+            "@type": "Occupation",
+            "name": "Lampa Software",
+            "startDate": "2022-02",
+            "endDate": "2023-07",
+            "location": {
+              "@type": "Place",
+              "name": "Vinnica, Ukraine"
+            },
+            "description": [
+              "Junior+ (Backend Developer)",
+              "Junior+ (Full-stack)"
+            ],
+            "skills": "Node.js, express, react, tailwind"
+          },
+          {
+            "@type": "Occupation",
+            "name": "Kvinivel Inc",
+            "startDate": "2023-10",
+            "endDate": "2024-02",
+            "location": {
+              "@type": "Place",
+              "name": "Alberta, Calgary"
+            },
+            "jobTitle": "Middle",
+            "description": "Node.js, express, react"
+          },
+          {
+            "@type": "Occupation",
+            "name": "Freelance",
+            "startDate": "2024-02",
+            "endDate": "now",
+            "location": {
+              "@type": "Place",
+              "name": "Kyiv, Ukraine"
+            },
+            "jobTitle": "Freelance"
+          }
+        ],
+        "alumniOf": [
+          {
+            "@type": "EducationalOrganization",
+            "name": "College of Information Systems and Technologies",
+            "address": {
+              "addressCountry": "UA",
+              "addressLocality": "Kyiv",
+              "streetAddress": "Lviv Square, 14",
+              "email": "kist-kneu@mail.ru"
+            }
+          },
+          {
+            "@type": "EducationalOrganization",
+            "name": "The University College of Enterprise and Administration",
+            "address": {
+              "addressCountry": "PL",
+              "addressLocality": "Lublin",
+              "streetAddress": "Bursaki 12",
+              "email": "admissions@wspa.pl"
+            }
+          }
+        ],
+        "knowsLanguage": [
+          {
+            "@type": "Language",
+            "name": "English",
+            "proficiencyLevel": "B1"
+          },
+          {
+            "@type": "Language",
+            "name": "Ukrainian",
+            "proficiencyLevel": "Native"
+          },
+          {
+            "@type": "Language",
+            "name": "Polish",
+            "proficiencyLevel": "C1"
+          }
+        ],
+        "knowsAbout": [
+          {
+            "@type": "Thing",
+            "name": "BackEnd",
+            "description": [
+              "JS",
+              "TS",
+              "Node.js",
+              "GOLANG",
+              "Nest.js",
+              "express.js",
+              "GraphQL",
+              "Apollo",
+              "Documentation: Swagger, JSDoc, TS interfaces",
+              "DB: MongoDB, Postgres, SQLite, Redis",
+              "Orm: TypeOrm, Mongoose"
+            ]
+          },
+          {
+            "@type": "Thing",
+            "name": "Database",
+            "description": [
+              "MongoDB",
+              "Postgres",
+              "SQLite",
+              "Redis",
+              "TypeOrm",
+              "Mongoose",
+              "SQL"
+            ]
+          },
+          {
+            "@type": "Thing",
+            "name": "DevOps",
+            "description": [
+              "CI/CD",
+              "Docker",
+              "Github",
+              "GitLab",
+              "BitBucket",
+              "Azure",
+              "Linux",
+              "Bash",
+              "pm2"
+            ]
+          },
+          {
+            "@type": "Thing",
+            "name": "FrontEnd",
+            "description": [
+              "JS",
+              "TS",
+              "React.js",
+              "Next.js",
+              "HTML",
+              "CSS",
+              "SEO Schemas",
+              "Sass",
+              "Tailwind"
+            ]
+          },
+          {
+            "@type": "Thing",
+            "name": "Testing",
+            "description": [
+              "Jest",
+              "Postman",
+              "Postman scripts",
+              "Node.js native test",
+              "Go native test"
+            ]
+          },
+          {
+            "@type": "Thing",
+            "name": "Other skills",
+            "description": [
+              "Code reviewing",
+              "Business Analytics",
+              "Basic system architecture",
+              "Design: Figma",
+              "Test plans and quality assurance",
+              "Internet-marketing",
+              "OpenAI - generating SQL and MongoDB aggregation in runtime, generating summary and analytics from a large text source, generating recommendations for rewriting text, assistant for sites like auto FAQ",
+              "T5-model - deploying and working. This model generates a revised version of inputted text to contain fewer grammatical errors.",
+              "LeonardoAi - image generation"
+            ]
+          }
+        ],
+        "seeks": [
+          "Backend Developer specializing in Node.js and related technologies.",
+          "Full-stack Developer with expertise in Node.js and React.",
+          "DevOps Engineer focusing on CI/CD, Docker, and cloud services."
+        ]
+      }
+    </script>
+  </head>
+  <body class="bg-gray-100 text-gray-900">
+    <div class="container mx-auto p-4">
+      <header class="text-center my-4">
+        <h1 class="text-4xl font-bold">Bohdan Fedorov</h1>
+        <p class="text-xl">
+          Backend Developer | Full-stack Developer | DevOps Engineer
+        </p>
+        <p>
+          Email:
+          <a href="mailto:bogdanfedorov@gmail.com" class="text-blue-500"
+            >bogdanfedorov@gmail.com</a
+          >
+        </p>
+      </header>
+      <section class="my-8">
+        <h2 class="text-2xl font-bold border-b-2 border-gray-300 pb-2 mb-4">
+          About me
+        </h2>
+        <div class="flex mb-6">
+          <img
+            src="./images/photo.png"
+            alt="BOHDAN FEDOROV"
+            class="w-40 h-40 mr-4 rounded-full"
+          />
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <p>
+              For the last 3.5 years, I have been working as a web developer,
+              before that I studied to become a software engineer for mobile web
+              applications. Now I work as a DevOps, developing a full stack
+              application, and deploying to servers.
+            </p>
+            <p>
+              I find ways to solve and implement from a business idea to a
+              deployed solution Constantly learning how to find the best
+              business solutions, sometimes not just about code, but also about
+              business intelligence.
+            </p>
 
-        .hover-text-blue-500:hover {
-            color: #4299e1;
-        }
-    </style>
-</head>
-
-<body class="bg-gray-100 text-gray-800 font-sans">
-<div class="container mx-auto px-4 py-8">
-    <div class="flex items-center mb-6">
-        <img src="./photo.png" alt="BOHDAN FEDOROV" class="w-40 h-40 mr-4 rounded-full">
-        <div>
-            <h1 class="text-3xl font-bold mb-1">BOHDAN FEDOROV</h1>
-            <p class="text-lg font-semibold">JS DEVELOPER MIDDLE</p>
+            <p>
+              Have experience as a technical lead of a project with 6+
+              developers, decomposing business requirements into simple tasks
+              for other developers
+            </p>
+            <p>
+              I already have experience working with AI technologies: OpenAI,
+              T5-model, and Leonardo Ai (a little hate copilot for coding).
+            </p>
+          </div>
         </div>
-    </div>
-    <div class="mb-6">
-        <h2 class="text-xl font-bold mb-2">About me</h2>
-        <p class="mb-4">I am a professional developer with skills in problem-solving,
-            strong communication abilities, and the ability to work well in a
-            team. My analytical skills allow me to effectively develop
-            solutions for complex tasks, and my project management and
-            time management skills help ensure successful project
-            execution and priority setting.</p>
-        <p class="mb-4">Overall, my non-coding skills complement my technical
-            expertise and make me a successful developer capable of
-            achieving high results in my profession and working effectively
-            in a team environment.</p>
-    </div>
-    <div class="mb-6">
-        <h2 class="text-xl font-bold mb-2">Contact info</h2>
-        <ul>
-            <li class="mb-2 hover-text-blue-500">📧 email: <a href="mailto:bogdanfedorov@gmail.com"
-                                                             class="text-blue-500">bogdanfedorov@gmail.com</a></li>
-            <li class="mb-2 hover-text-blue-500">📱 phone: +380 97 168 28 25</li>
-            <li class="mb-2 hover-text-blue-500">🚀 telegram: <a href="https://t.me/FedorovBohdan"
-                                                                class="text-blue-500">@FedorovBohdan</a></li>
-            <li class="mb-2 hover-text-blue-500">🐙 github: <a href="https://github.com/bogdanfedorov"
-                                                              class="text-blue-500">bogdanfedorov</a></li>
-        </ul>
-    </div>
-    <div class="mb-6">
-        <h2 class="text-xl font-bold mb-2">EDUCATION</h2>
-        <ul>
-            <li class="mb-2">● College of Information Systems and Technologies (2014-2017)</li>
-            <li class="mb-2">● WSPA Engineer - Lublin, Poland (2017-2020)</li>
-            <ul class="list-disc pl-6">
-                <li>Mobile and Web Technology: JAVA, C#, JS, Python, SQL DB, business process analysis, UX/UI mobile</li>
-            </ul>
-        </ul>
-    </div>
-    <div class="mb-6">
-        <h2 class="text-xl font-bold mb-2">EXPERIENCE</h2>
-        <ul>
-            <li class="mb-2">● Freelance (2018-2021) Lublin, Poland</li>
-            <ul class="list-disc pl-6">
-                <li>Trainee -> Junior</li>
-            </ul>
-            <li class="mb-2">● Yalantis (2021-2022) Kiev, Ukraine</li>
-            <ul class="list-disc pl-6">
-                <li>Junior(+)</li>
-            </ul>
-            <li class="mb-2">● Lampa Software(2022-2023) Vinnica, Ukraine</li>
-            <ul class="list-disc pl-6">
-                <li>Junior(+) -> Middle</li>
-            </ul>
-        </ul>
-    </div>
-    <div class="mb-6">
-        <h2 class="text-xl font-bold mb-2">LANGUAGES</h2>
-        <ul>
-            <li class="mb-2 hover-text-blue-500">● English (B1)</li>
-            <li class="mb-2 hover-text-blue-500">● Ukrainian (Native)</li>
-            <li class="mb-2 hover-text-blue-500">● Polish (C1)</li>
-        </ul>
-    </div>
-    <div class="mb-6">
-        <h2 class="text-xl font-bold mb-2">KNOWLEDGE</h2>
-        <div class="flex mb-4">
-            <div class="w-1/2 mr-4">
-                <h3 class="font-semibold mb-2">Backend</h3>
-                <ul>
-                    <li class="mb-2 hover-text-blue-500">JavaScript (JS/TS)</li>
-                    <li class="mb-2 hover-text-blue-500">Node.js</li>
-                    <li class="mb-2 hover-text-blue-500">Nest.js</li>
-                    <li class="mb-2 hover-text-blue-500">Express.js</li>
-                    <li class="mb-2 hover-text-blue-500">Apollo Server (GraphQL)</li>
-                    <li class="mb-2 hover-text-blue-500">Automation testing (jest)</li>
-                    <li class="mb-2 hover-text-blue-500">Documentation (swagger , jsdoc, ts interfaces)</li>
-                    <li class="mb-2 hover-text-blue-500">Storage: Redis, MongoDB, Postgres, SQLite</li>
-                    <li class="mb-2 hover-text-blue-500">Orm: TypeORM, Mongoose</li>
-                </ul>
-            </div>
-            <div class="w-1/2">
-                <h3 class="font-semibold mb-2">Front-end</h3>
-                <ul>
-                    <li class="mb-2 hover-text-blue-500">HTML/CSS/JS</li>
-                    <li class="mb-2 hover-text-blue-500">Vite</li>
-                    <li class="mb-2 hover-text-blue-500">Next.js</li>
-                    <li class="mb-2 hover-text-blue-500">React.js and Vue.js</li>
-                    <li class="mb-2 hover-text-blue-500">Apollo Client (GraphQL)</li>
-                    <li class="mb-2 hover-text-blue-500">Styles: Tailwind</li>
-                </ul>
-            </div>
-        </div>
-        <h3 class="font-semibold mb-2">Other skills</h3>
-        <ul>
-            <li class="mb-2 hover-text-blue-500">Code reviewing</li>
-            <li class="mb-2 hover-text-blue-500">Business analytics</li>
-            <li class="mb-2 hover-text-blue-500">Microservices and monolit architecture</li>
-            <li class="mb-2 hover-text-blue-500">System design</li>
-            <li class="mb-2 hover-text-blue-500">Solid principles</li>
-            <li class="mb-2 hover-text-blue-500">Linux</li>
-            <li class="mb-2 hover-text-blue-500">Docker</li>
-            <li class="mb-2 hover-text-blue-500">Figma</li>
-        </ul>
-    </div>
-</div>
-</body>
+      </section>
 
+      <section class="my-8">
+        <h2 class="text-2xl font-bold border-b-2 border-gray-300 pb-2 mb-4">
+          Work Experience
+        </h2>
+        <ul class="space-y-4">
+          <li>
+            <div class="ml-48">
+              <h3 class="text-xl font-semibold">Freelance (2018-2021)</h3>
+              <p class="text-gray-700">Lublin, Poland</p>
+              <p>Trainee - Intern - Junior</p>
+            </div>
+          </li>
+          <li class="flex flex-row">
+            <img
+              src="./images/yalantis.png"
+              alt="Yalantis logo"
+              class="w-30 h-20 mr-4"
+            />
+            <div>
+              <h3 class="text-xl font-semibold">
+                Yalantis (Sep 2020 - Feb 2022)
+              </h3>
+              <p class="text-gray-700">Kyiv, Ukraine</p>
+              <p>Junior Backend Developer</p>
+              <p>node.js: express, fastify, nest.js</p>
+            </div>
+          </li>
+          <li class="flex flex-row">
+            <img
+              src="./images/lampa.png"
+              alt="Lampa software logo"
+              class="w-30 h-20 mr-4"
+            />
+            <div>
+              <h3 class="text-xl font-semibold">
+                Lampa Software (Feb 2022 - Jul 2023)
+              </h3>
+              <p class="text-gray-700">Vinnica, Ukraine</p>
+              <p>Junior + Backend Developer | Middle Full-stack</p>
+              <p>node.js, express, react</p>
+            </div>
+          </li>
+          <li class="flex flex-row">
+            <img
+              src="./images/tesseris_pro.png"
+              alt="Tesseris logo"
+              class="w-30 h-20 mr-4"
+            />
+            <div>
+              <h3 class="text-xl font-semibold">
+                Kvinivel Inc (ex Tesseris Pro) (Oct 2023 - Feb 2024)
+              </h3>
+              <p class="text-gray-700">Alberta, Calgary</p>
+              <p>Middle</p>
+              <p>node.js,express ,react</p>
+            </div>
+          </li>
+          <li class="ml-48">
+            <div>
+              <h3 class="text-xl font-semibold">Freelance (Feb 2024 - now)</h3>
+              <p class="text-gray-700">Kyiv, Ukraine</p>
+              <p>Freelance</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="my-8">
+        <h2 class="text-2xl font-bold border-b-2 border-gray-300 pb-2 mb-4">
+          Education
+        </h2>
+        <ul class="space-y-4">
+          <li>
+            <h3 class="text-xl font-semibold">
+              College of Information Systems and Technologies
+            </h3>
+            <p class="text-gray-700">Kyiv, Ukraine</p>
+            <p>Lviv Square, 14</p>
+            <p>
+              Email:
+              <a href="mailto:kist-kneu@mail.ru" class="text-blue-500"
+                >kist-kneu@mail.ru</a
+              >
+            </p>
+          </li>
+          <li>
+            <h3 class="text-xl font-semibold">
+              The University College of Enterprise and Administration
+            </h3>
+            <p class="text-gray-700">Lublin, Poland</p>
+            <p>Bursaki 12</p>
+            <p>
+              Email:
+              <a href="mailto:admissions@wspa.pl" class="text-blue-500"
+                >admissions@wspa.pl</a
+              >
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="my-8">
+        <h2 class="text-2xl font-bold border-b-2 border-gray-300 pb-2 mb-4">
+          Languages
+        </h2>
+        <ul class="space-y-4">
+          <li>
+            <p class="text-xl">English (B1)</p>
+          </li>
+          <li>
+            <p class="text-xl">Ukrainian (Native)</p>
+          </li>
+          <li>
+            <p class="text-xl">Polish (C1)</p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="my-8">
+        <h2 class="text-2xl font-bold border-b-2 border-gray-300 pb-2 mb-4">
+          Skills & Knowledge
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div>
+            <h3 class="text-xl font-semibold">BackEnd</h3>
+            <ul class="list-disc list-inside">
+              <li>Node.js JS/TS</li>
+              <li>GOLANG</li>
+              <li>Nest.js, express.js</li>
+              <li>GraphQL (Apollo)</li>
+              <li>Testing: Jest, Postman scripts, go test</li>
+              <li>Documentation: Swagger, JSDoc, TS interfaces</li>
+              <li>DB: MongoDB, Postgres, SQLite, Redis</li>
+              <li>Orm: TypeOrm, Mongoose</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-xl font-semibold">DevOps</h3>
+            <ul class="list-disc list-inside">
+              <li>CI/CD</li>
+              <li>Docker</li>
+              <li>Github, GitLab, BitBucket</li>
+              <li>Azure</li>
+              <li>Linux</li>
+              <li>Python, Bash</li>
+              <li>pm2</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-xl font-semibold">FrontEnd</h3>
+            <ul class="list-disc list-inside">
+              <li>React.js JS/TS</li>
+              <li>Next.js</li>
+              <li>HTML, CSS, SEO Schemas</li>
+              <li>Sass, Tailwind</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-xl font-semibold">Other skills</h3>
+            <ul class="list-disc list-inside">
+              <li>Code reviewing</li>
+              <li>Business Analytics</li>
+              <li>Basic system architecture</li>
+              <li>Design: Figma</li>
+              <li>Test plans and quality assurance</li>
+              <li>Internet-marketing</li>
+              <li>
+                OpenAI - generating SQL and MongoDB aggregation in runtime,
+                generating summary and analytics from a large text source,
+                generating recommendations for rewriting text, assistant for
+                sites like auto FAQ
+              </li>
+              <li>
+                T5-model - deploying and working. This model generates a revised
+                version of inputted text to contain fewer grammatical errors.
+              </li>
+              <li>LeonardoAi - image generation</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="my-8">
+        <h2 class="text-2xl font-bold border-b-2 border-gray-300 pb-2 mb-4">
+          Seeking Opportunities
+        </h2>
+        <ul class="list-disc list-inside">
+          <li>
+            Backend Developer specializing in Node.js and related technologies.
+          </li>
+          <li>Full-stack Developer with expertise in Node.js and React.</li>
+          <li>
+            DevOps Engineer focusing on CI/CD, Docker, and cloud services.
+          </li>
+        </ul>
+      </section>
+    </div>
+  </body>
 </html>

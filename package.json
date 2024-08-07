@@ -1,0 +1,17 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "CV about Fedorov Bohdan",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/main.js"
+  },
+  "author": "Bohdan Fedorov (bogdanfedorov@gmail.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "@biomejs/biome": "1.8.3",
+    "html-pdf-node": "1.0.8",
+    "html-to-pdf": "0.1.11"
+  }
+}
