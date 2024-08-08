@@ -6,6 +6,14 @@
   "gender": "male",
   "birthDate": "2000-10-05",
   "email": "bogdanfedorov@gmail.com",
+  "contact_information": {
+    "telegram": "@Bohdan_Fedorov_Web",
+    "phone_ua": "+380684512382",
+    "phone_md": "+37378926053",
+    "github": "https://github.com/bogdanfedorov",
+    "linkedin": "https://www.linkedin.com/in/bohdan-fedorov-137636263/?locale=en_US",
+    "djinni": "https://djinni.co/q/400b4e8e19/"
+  },
   "jobTitle": ["Backend Developer", "Full-stack Developer", "DevOps Engineer"],
   "hasOccupation": [
     {
@@ -105,6 +113,11 @@
       "@type": "Language",
       "name": "Polish",
       "proficiencyLevel": "C1"
+    },
+    {
+      "@type": "Language",
+      "name": "Russian",
+      "proficiencyLevel": "Native"
     }
   ],
   "knowsAbout": [
