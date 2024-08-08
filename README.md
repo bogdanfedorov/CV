@@ -6,8 +6,6 @@ Email: [bogdanfedorov@gmail.com](mailto:bogdanfedorov@gmail.com)
 
 ## About me
 
-![BOHDAN FEDOROV](./images/photo.png)
-
 For the last 3.5 years, I have been working as a web developer, before that I studied to become a software engineer for mobile web applications. Now I work as a DevOps, developing a full stack application, and deploying to servers.
 
 I find ways to solve and implement from a business idea to a deployed solution Constantly learning how to find the best business solutions, sometimes not just about code, but also about business intelligence.

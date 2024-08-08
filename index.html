@@ -256,11 +256,14 @@
       }
     </script>
     <style>
-    @media print {
-      .printHidden{
-        visibility: hidden;
+      @media print {
+        .printHidden {
+          display: none;
+        }
+        .pagebreak {
+          page-break-before: always;
+        }
       }
-    }
     </style>
   </head>
   <body class="bg-gray-100 text-gray-900">
@@ -271,22 +274,57 @@
           Backend Developer | Full-stack Developer | DevOps Engineer
         </p>
         <p>
-          Email:<a href="mailto:bogdanfedorov@gmail.com" class="text-blue-500">bogdanfedorov@gmail.com</a>
-          | 
-          Telegram: <a href="telegram:@Bohdan_Fedorov_Web" class="text-blue-500">@Bohdan_Fedorov_Web</a>
+          Email:<a href="mailto:bogdanfedorov@gmail.com" class="text-blue-500"
+            >bogdanfedorov@gmail.com</a
+          >
+          | Telegram:
+          <a href="telegram:@Bohdan_Fedorov_Web" class="text-blue-500"
+            >@Bohdan_Fedorov_Web</a
+          >
         </p>
         <p>
-          Ukraine: <a href="phone:+380684512382" class="text-blue-500">+380684512382</a>
-          |
-          Moldova: <a href="phone:+37378926053" class="text-blue-500">+37378926053</a>
+          Ukraine:
+          <a href="phone:+380684512382" class="text-blue-500">+380684512382</a>
+          | Moldova:
+          <a href="phone:+37378926053" class="text-blue-500">+37378926053</a>
         </p>
         <p>
-          Github: <a href="https://github.com/bogdanfedorov" class="text-blue-500" >bogdanfedorov</a>
-          |
-          Linkedin: <a href="https://www.linkedin.com/in/bohdan-fedorov-137636263/?locale=en_US" class="text-blue-500">bohdan-fedorov-137636263</a>
-          |
-          Djinni: <a href="https://djinni.co/q/400b4e8e19/" class="text-blue-500" >djinni.co/q/400b4e8e19/</a>
+          Github:
+          <a href="https://github.com/bogdanfedorov" class="text-blue-500"
+            >bogdanfedorov</a
+          >
+          | Linkedin:
+          <a
+            href="https://www.linkedin.com/in/bohdan-fedorov-137636263/?locale=en_US"
+            class="text-blue-500"
+            >bohdan-fedorov-137636263</a
+          >
+          | Djinni:
+          <a href="https://djinni.co/q/400b4e8e19/" class="text-blue-500"
+            >djinni.co/q/400b4e8e19/</a
+          >
         </p>
+        <div class="flex flex-row gap-2 justify-center printHidden">
+          <form class="w-min" method="get" action="BOHDAN_FEDOROV_CV_2024.pdf ">
+            <button
+              class="flex flex-row justify-center place-items-center p-2 bg-green-700 text-white gap-2 rounded-md"
+              type="submit"
+            >
+              <i class="fa fa-download"></i>
+              PDF
+            </button>
+          </form>
+
+          <form class="w-min" method="get" action="schema.json">
+            <button
+              class="flex flex-row justify-center place-items-center p-2 bg-green-700 text-white gap-2 rounded-md"
+              type="submit"
+            >
+              <i class="fa fa-download"></i>
+              SCHEMA.json
+            </button>
+          </form>
+        </div>
       </header>
 
       <section class="my-8">
@@ -294,36 +332,8 @@
           About me
         </h2>
         <div class="flex mb-6">
-          <div class="flex flex-col gap-2">
-            <img
-              src="./images/photo.png"
-              alt="BOHDAN FEDOROV"
-              class="w-40 h-40 rounded-full"
-            />
-
-            <div class="flex flex-col w-40 gap-2 printHidden">
-              <form method="get" action="BOHDAN_FEDOROV_CV_2024.pdf ">
-                <button
-                  class="w-full flex flex-row justify-center place-items-center p-2 bg-green-700 text-white gap-2 rounded-md"
-                  type="submit"
-                >
-                <i class="fa fa-download"></i>
-                PDF</a
-                </button>
-              </form>
-
-              <form method="get" action="schema.json">
-                <button
-                  class="w-full flex flex-row justify-center place-items-center p-2 bg-green-700 text-white gap-2 rounded-md"
-                  type="submit"
-                >
-                  <i class="fa fa-download"></i>
-                  SCHEMA.json
-                </button>
-              </form>
-            </div>
-          </div>
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 ml-4">
+          <div class="flex flex-row gap-2"></div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
             <p>
               For the last 3.5 years, I have been working as a web developer,
               before that I studied to become a software engineer for mobile web
@@ -377,7 +387,7 @@
         </ul>
       </section>
 
-      <section class="my-8">
+      <section class="my-8 pagebreak">
         <h2 class="text-2xl font-bold border-b-2 border-gray-300 pb-2 mb-4">
           Work Experience
         </h2>
@@ -464,7 +474,7 @@
         </ul>
       </section>
 
-      <section class="my-8">
+      <section class="my-8 pagebreak">
         <h2 class="text-2xl font-bold border-b-2 border-gray-300 pb-2 mb-4">
           Skills & Knowledge
         </h2>
