@@ -26,6 +26,10 @@
       href="./images/favicon.ico"
       sizes="16x16 32x32 192x192 512x512"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -253,17 +257,42 @@
           >
         </p>
       </header>
+
       <section class="my-8">
         <h2 class="text-2xl font-bold border-b-2 border-gray-300 pb-2 mb-4">
           About me
         </h2>
         <div class="flex mb-6">
-          <img
-            src="./images/photo.png"
-            alt="BOHDAN FEDOROV"
-            class="w-40 h-40 mr-4 rounded-full"
-          />
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div class="flex flex-col gap-2">
+            <img
+              src="./images/photo.png"
+              alt="BOHDAN FEDOROV"
+              class="w-40 h-40 rounded-full"
+            />
+
+            <div class="flex flex-col w-40 gap-2">
+              <form method="get" action="BOHDAN_FEDOROV_CV_2024.pdf ">
+                <button
+                  class="w-full flex flex-row justify-center place-items-center p-2 bg-green-700 text-white gap-2 rounded-md"
+                  type="submit"
+                >
+                <i class="fa fa-download"></i>
+                PDF</a
+                </button>
+              </form>
+
+              <form method="get" action="schema.json">
+                <button
+                  class="w-full flex flex-row justify-center place-items-center p-2 bg-green-700 text-white gap-2 rounded-md"
+                  type="submit"
+                >
+                  <i class="fa fa-download"></i>
+                  SCHEMA.json
+                </button>
+              </form>
+            </div>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 ml-4">
             <p>
               For the last 3.5 years, I have been working as a web developer,
               before that I studied to become a software engineer for mobile web
