@@ -94,6 +94,7 @@ I already have experience working with AI technologies: OpenAI, T5-model, and Le
 - Documentation: Swagger, JSDoc, TS interfaces
 - DB: MongoDB, Postgres, SQLite, Redis
 - Orm: TypeOrm, Mongoose
+- Redis, Kafka
 
 ### DevOps
 
