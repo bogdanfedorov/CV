@@ -1,0 +1,216 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Bohdan",
+  "familyName": "Fedorov",
+  "gender": "male",
+  "birthDate": "2000-10-05",
+  "email": "bogdanfedorov@gmail.com",
+  "contact_information": {
+    "telegram": "@Bohdan_Fedorov_Web",
+    "phone": "+48796785808",
+    "github": "https://github.com/bogdanfedorov",
+    "linkedin": "https://www.linkedin.com/in/bohdan-fedorov-137636263/?locale=en_US",
+    "djinni": "https://djinni.co/q/400b4e8e19/"
+  },
+  "jobTitle": ["Backend Developer", "Full-stack Developer", "DevOps Engineer"],
+  "hasOccupation": [
+    {
+      "@type": "Occupation",
+      "name": "Freelance",
+      "startDate": "2019-08",
+      "endDate": "2020-02",
+      "location": {
+        "@type": "Place",
+        "name": "Lublin, Poland"
+      },
+      "description": "Trainee - Intern - Junior",
+      "skills": "Node.js, React"
+    },
+    {
+      "@type": "Occupation",
+      "name": "Yalantis",
+      "startDate": "2020-09",
+      "endDate": "2022-02",
+      "location": {
+        "@type": "Place",
+        "name": "Kyiv, Ukraine"
+      },
+      "description": "Junior Backend Developer",
+      "skills": "Node.js, express, fastify, nest.js, Postgres, TypeOrm"
+    },
+    {
+      "@type": "Occupation",
+      "name": "Lampa Software",
+      "startDate": "2022-02",
+      "endDate": "2023-07",
+      "location": {
+        "@type": "Place",
+        "name": "Vinnica, Ukraine"
+      },
+      "description": ["Junior+ (Backend Developer)", "Junior+ (Full-stack)"],
+      "skills": "Node.js, express, react, tailwind"
+    },
+    {
+      "@type": "Occupation",
+      "name": "Kvinivel Inc",
+      "startDate": "2023-10",
+      "endDate": "2024-02",
+      "location": {
+        "@type": "Place",
+        "name": "Alberta, Calgary"
+      },
+      "jobTitle": "Middle",
+      "description": "Node.js, express, react"
+    },
+    {
+      "@type": "Occupation",
+      "name": "Freelance",
+      "startDate": "2024-02",
+      "endDate": "now",
+      "location": {
+        "@type": "Place",
+        "name": "Kyiv, Ukraine"
+      },
+      "jobTitle": "Freelance",
+      "description": "Node.js, express, react, tailwind"
+    }
+  ],
+  "alumniOf": [
+    {
+      "@type": "EducationalOrganization",
+      "name": "College of Information Systems and Technologies",
+      "address": {
+        "addressCountry": "UA",
+        "addressLocality": "Kyiv",
+        "streetAddress": "Lviv Square, 14",
+        "email": "kist-kneu@mail.ru"
+      }
+    },
+    {
+      "@type": "EducationalOrganization",
+      "name": "The University College of Enterprise and Administration",
+      "address": {
+        "addressCountry": "PL",
+        "addressLocality": "Lublin",
+        "streetAddress": "Bursaki 12",
+        "email": "admissions@wspa.pl"
+      }
+    }
+  ],
+  "knowsLanguage": [
+    {
+      "@type": "Language",
+      "name": "English",
+      "proficiencyLevel": "B1"
+    },
+    {
+      "@type": "Language",
+      "name": "Ukrainian",
+      "proficiencyLevel": "Native"
+    },
+    {
+      "@type": "Language",
+      "name": "Polish",
+      "proficiencyLevel": "C1"
+    },
+    {
+      "@type": "Language",
+      "name": "Russian",
+      "proficiencyLevel": "Native"
+    }
+  ],
+  "knowsAbout": [
+    {
+      "@type": "Thing",
+      "name": "BackEnd",
+      "description": [
+        "JS",
+        "TS",
+        "Node.js",
+        "GOLANG",
+        "Nest.js",
+        "express.js",
+        "GraphQL",
+        "Apollo",
+        "Documentation: Swagger, JSDoc, TS interfaces",
+        "DB: MongoDB, Postgres, SQLite, Redis",
+        "Orm: TypeOrm, Mongoose"
+      ]
+    },
+    {
+      "@type": "Thing",
+      "name": "Database",
+      "description": [
+        "MongoDB",
+        "Postgres",
+        "SQLite",
+        "Redis",
+        "TypeOrm",
+        "Mongoose",
+        "SQL"
+      ]
+    },
+    {
+      "@type": "Thing",
+      "name": "DevOps",
+      "description": [
+        "CI/CD",
+        "Docker",
+        "Github",
+        "GitLab",
+        "BitBucket",
+        "Azure",
+        "Linux",
+        "Bash",
+        "pm2"
+      ]
+    },
+    {
+      "@type": "Thing",
+      "name": "FrontEnd",
+      "description": [
+        "JS",
+        "TS",
+        "React.js",
+        "Next.js",
+        "HTML",
+        "CSS",
+        "SEO Schemas",
+        "Sass",
+        "Tailwind"
+      ]
+    },
+    {
+      "@type": "Thing",
+      "name": "Testing",
+      "description": [
+        "Jest",
+        "Postman",
+        "Postman scripts",
+        "Node.js native test",
+        "Go native test"
+      ]
+    },
+    {
+      "@type": "Thing",
+      "name": "Other skills",
+      "description": [
+        "Code reviewing",
+        "Business Analytics",
+        "Basic system architecture",
+        "Design: Figma",
+        "Test plans and quality assurance",
+        "Internet-marketing",
+        "OpenAI - generating SQL and MongoDB aggregation in runtime, generating summary and analytics from a large text source, generating recommendations for rewriting text, assistant for sites like auto FAQ",
+        "T5-model - deploying and working. This model generates a revised version of inputted text to contain fewer grammatical errors.",
+        "LeonardoAi - image generation"
+      ]
+    }
+  ],
+  "seeks": [
+    "Backend Developer specializing in Node.js and related technologies.",
+    "Full-stack Developer with expertise in Node.js and React.",
+    "DevOps Engineer focusing on CI/CD, Docker, and cloud services."
+  ]
+}
